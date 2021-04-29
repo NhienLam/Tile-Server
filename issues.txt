@@ -1,0 +1,35 @@
+1) Views
+   Description: Displays the main page where user can use the tile server
+    - Displays the main page where user can use the tile server
+    - TODO: figure out how to display 3x3 grid. DONE!
+    - TODO: make zoom in and zoom out button disabled/greyed out appropriately. DONE!
+    - COMPLETE VIEW.PHP! Successfully outputs and updates 3x3 grid correctly!
+
+2) Models
+   Description: Reads and writes coordinate data
+    - COMPLETE MODEL.PHP! Successfully stores and gets data!
+    - 
+
+3) Controller
+   Description: Gets data from model and output an appropriate view
+    - ISSUE: Up,down,left,right arrows only work for either ij or ijmn not both. FIXED!
+    - COMPLETE CONTROLLER.PHP! Successfully makes all buttons and functions work properly!
+
+4) Resources
+   Description: Stores text files that are used by Model to keep track of data
+    - 
+    -
+
+5) Style
+   Description: A CSS stylesheet file to format the layout of a webpage
+    - Style the 3x3 grid 
+    - TODO: make buttons and texts look better if have enough time
+
+6) excutables
+   Description: Holds command-line image tool 
+    - do not have EXIF extension installed, so exif_imagetype doesn't work. 
+            - UPDATE: FIXED IT!
+    - function is_jpg works properly; already tested
+    - Successfully creating new folder and stored an image to this folder
+    - ISSUE: 256 images is not 200x200! FIXED using imagecopyresized()!!
+    - COMPLETE TILEMAKER.PHP! Successfully creates new folder and all neccessary images with correct size!
